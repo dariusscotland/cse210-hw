@@ -4,15 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("Please enter your first name: ");
+        Console.Write("What is your first name? ");
         string firstName = Console.ReadLine();
 
-        Console.Write("Please enter your last name: ");
+        Console.Write("What is your last name? ");
         string lastName = Console.ReadLine();
 
-        string introduction = $"Your name is {lastName}, {firstName}, {lastName}";
+        string introduction = $"Your name is {lastName}, {firstName} {lastName}.";
 
-        Console.WriteLine("\n--- Agent Protocol Activated ---");
         Console.WriteLine(introduction);
     }
 }
